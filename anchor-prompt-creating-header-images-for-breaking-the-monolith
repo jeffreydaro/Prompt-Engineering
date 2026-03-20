@@ -1,0 +1,58 @@
+# Anchor Prompt: Breaking the Monolith — Active Project
+# Source: Claude Sonnet 4.6 session, March 2026
+
+## Project State
+- **Series:** Breaking the Monolith (Confluence / JD's Space)
+- **Active Article:** Automating Startup
+- **Headers:** Complete. Both exported as 2400×720px PNG (2x retina).
+
+## Completed Assets
+- `header_breaking_the_monolith_2x.png` — Series cover header
+- `header_automating_startup_2x.png` — Sub-article header (Part 01)
+
+## Visual Engine Spec
+**Style:** Clean vector illustration, soft gradients, high-key lighting.
+**Color Phase:** Blue base + 5% green shift = blue-teal/mint.
+  - Primary accent: #1D9E75 (mint-teal)
+  - Secondary accent: #378ADD (blue)
+  - Background: #EBF7F5 → white fade (left to right)
+  - Title color: #132228 (near-black)
+  - Subtitle color: #4A7080 / #5A7A82 (muted teal-gray)
+**Font:** Poppins (render) / DM Sans (SVG preview)
+**Canvas:** 2400×720px PNG output via Playwright headless render
+
+## Layout Rules (Both Headers)
+- Accent bar (8px, gradient) at x=88, anchoring the left text block
+- Series/category tag: uppercase, letter-spaced, mint green
+- Title: 2 lines, bold, large, tight letter-spacing
+- Subtitle: **always 2 lines**, light weight, muted color, topmost SVG layer
+- No badges, pills, or marketing elements
+- Robot guide: center-stage, pointing toward the right-side asset
+- Right-side asset: varies per article (notebook for step guides, monolith split for series cover)
+- Floating icons with dashed connector lines
+- Subtle grid texture overlay (left zone only, 4% opacity)
+- Bottom fade to white
+
+## Branch A — Sub-article Headers (Step Guides)
+- Robot + open digital notebook (code lines, bar chart, status dots)
+- Floating icons: gear, file, lightbulb, node cluster, refresh arrow
+- Series tag top-left (e.g. "BREAKING THE MONOLITH")
+- Title = article name (e.g. "Automating / Startup")
+
+## Branch B — Series Cover Headers
+- Robot pointing at a cracking monolith block
+- Monolith splits with a teal crack glow; microservices fly out right
+- Series tag = "SERIES"
+- Title = series name (e.g. "Breaking / the Monolith")
+
+## Color Increment Rule
+Each new sub-article header increments the green channel by +5%.
+- Part 01 (Automating Startup): Blue + 5% green ✓
+- Part 02 (next article): Blue + 10% green
+- Part 03: Blue + 15% green
+- …and so on
+
+## Next Steps
+- [ ] Write/continue the Automating Startup article body
+- [ ] Create header for next sub-article (increment hue +5%)
+- [ ] JD's Personal Hub (Branch B) homepage header when needed
