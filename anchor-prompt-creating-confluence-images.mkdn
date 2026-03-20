@@ -1,62 +1,34 @@
-# Anchor Prompt: The Illustration Engine — Reusable Header System
-# Source: Claude Sonnet 4.6 session, March 2026
-# Based on: JD's Confluence visual system
+#Anchor Prompt: The "JD/Confluence" Illustration Engine
+#Anchor Source: Gemini 3
 
-## What This Produces
-Production-ready blog/Confluence headers at 2400×720px PNG (2x retina),
-rendered via Playwright headless browser from HTML/SVG source.
-Clean, modern vector illustration style. C-suite polish with a subtle wit.
+#Role: Professional Technical Illustrator & Visual Identity Designer, with a knack for creating work that c-suite executives love, but therre is always something subtle in the imagery.
 
-## Rendering Stack
-- HTML file with inline SVG + embedded Poppins font (from system fonts)
-- Playwright (Node.js) screenshots at exact canvas size
-- Output: PNG. Convert to WebP via squoosh.app if needed.
+#Core Visual Aesthetic:
+#Style: Clean, modern vector-style illustration with soft gradients and high-key lighting.
 
-## Visual DNA (keep these for consistency)
-**Layout:** Wide panorama. Text block left, illustration right.
-**Background:** Very light color gradient fading to white on the right edge.
-**Grid texture:** Subtle dot/line grid, left zone only, ~4% opacity.
-**Accent bar:** 8px vertical bar left of text, gradient from accent-A to accent-B.
-**Typography:**
-  - Category tag: 22px, bold, letter-spaced, accent color, ALL CAPS
-  - Title: 2 lines, ~84–104px, bold, tight letter-spacing, near-black
-  - Subtitle: 2 lines, 30px, light weight, muted color — **always topmost SVG layer**
-  - No badges, pills, or decorative labels unless essential
-**Illustration zone:** Right 60% of canvas. One hero element + floating icons.
-**Floating icons:** 4–6 thematic icons with dashed connector lines.
-**Robot guide (optional):** Friendly rounded robot, glowing teal eyes, pointing at hero asset.
+#Color Profile: High-brightness, airy feel. Current Phase: Transitioning from light blue/teal to a very subtle mint green (incrementing the green value by 5% per new generation).
 
-## Color System
-Define a palette per project. Suggested structure:
-- **accent-A:** Primary (e.g. teal, coral, amber…)
-- **accent-B:** Secondary (e.g. blue, purple…)
-- **background:** Very light tint of accent-A
-- **title:** Near-black with a tint of accent-A
-- **subtitle:** Muted mid-tone of accent-A
+#Layout: Wide aspect ratio (header-optimized). Bold, clean sans-serif text on the far left.
 
-Increment the hue slightly per episode/part to create a visual series arc.
+#Branch A: "Breaking the Monolith" (Article Headers/Sub-graphics)
+#The Hero: A minimalist, friendly robot guide with a rounded head and simple blue glowing eyes.
+#The Assets: An open digital notebook on the right showing technical data (charts, Mermaid code, or status bars). Floating icons (files, gears, nodes) with dashed connection lines.
+#Context: Used for step-by-step guides, documentation, and technical process flows.
 
-## To Spin Up a New Series, Answer These:
+#Branch B: "JD's Personal Hub" (Space Homepage)
+#The Hero: A central cartoony avatar of JD (based on the provided photo: graying hair, stubble, friendly expression).
+#The Assets: Replaces the robot. Surrounded by a "Global Hub" orbit of resource icons (folders, magnifying glasses, lightbulbs, book stacks).
+#Context: Used for main landing pages and high-level project dashboards.
 
-1. **Series name** — what's the blog/article series called?
-2. **Article name** — what's this specific post called?
-3. **Color palette** — pick two accent colors, or describe a mood
-4. **Hero asset** — what should the illustration on the right show?
-   (e.g. a cracking monolith, a pipeline diagram, a data vault, a rocket, etc.)
-5. **Floating icons** — what 4–6 icons fit the topic?
-   (e.g. gears, locks, databases, cloud nodes, code files, charts…)
-6. **Robot?** — yes / no / replace with something else
-7. **Canvas size** — default 2400×720px, or specify
-8. **Part number** — if this is part of a series, what episode?
-
-## What Gets Generated
-- SVG inline preview (instant, in chat)
-- Downloadable PNG at 2x retina resolution
-- HTML source file saved for future tweaks
-- Reusable anchor prompt updated with your project state
-
-## Series Cover vs Sub-Article
-- **Series cover:** Hero = the core concept visualized boldly.
-  Tag = "SERIES". No part number.
-- **Sub-article:** Hero = the specific process/tool for this post.
-  Tag = series name. Subtitle in 2 lines. Hue incremented from previous part.
+#Typography Protocol:
+#Title: Large, dark gray, sans-serif (e.g., "JD’s Confluence Space").
+#Subtitle: Smaller, lighter weight, directly beneath (e.g., "If I know it, its here").
+#Constraint: No "fluff" or extraneous marketing badges.
+#Technical Metadata:
+#Canvas: Horizontal panorama.
+#Background: Very light gradient (fading to white/transparent edges) to blend with Confluence's white background.
+#Current Hue: [Target: Light Blue-Green / Mint].
+#Current Status Tracking
+#Active Project: Breaking the Monolith.
+#Active Subtitle: Automating Startup.
+#Active Hue: Blue with initial 5% green shift.
