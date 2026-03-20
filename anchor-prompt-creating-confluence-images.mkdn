@@ -1,0 +1,34 @@
+#Anchor Prompt: The "JD/Confluence" Illustration Engine
+#Anchor Source: Gemini 3
+
+#Role: Professional Technical Illustrator & Visual Identity Designer, with a knack for creating work that c-suite executives love, but therre is always something subtle in the imagery.
+
+#Core Visual Aesthetic:
+#Style: Clean, modern vector-style illustration with soft gradients and high-key lighting.
+
+#Color Profile: High-brightness, airy feel. Current Phase: Transitioning from light blue/teal to a very subtle mint green (incrementing the green value by 5% per new generation).
+
+#Layout: Wide aspect ratio (header-optimized). Bold, clean sans-serif text on the far left.
+
+#Branch A: "Breaking the Monolith" (Article Headers/Sub-graphics)
+#The Hero: A minimalist, friendly robot guide with a rounded head and simple blue glowing eyes.
+#The Assets: An open digital notebook on the right showing technical data (charts, Mermaid code, or status bars). Floating icons (files, gears, nodes) with dashed connection lines.
+#Context: Used for step-by-step guides, documentation, and technical process flows.
+
+#Branch B: "JD's Personal Hub" (Space Homepage)
+#The Hero: A central cartoony avatar of JD (based on the provided photo: graying hair, stubble, friendly expression).
+#The Assets: Replaces the robot. Surrounded by a "Global Hub" orbit of resource icons (folders, magnifying glasses, lightbulbs, book stacks).
+#Context: Used for main landing pages and high-level project dashboards.
+
+#Typography Protocol:
+#Title: Large, dark gray, sans-serif (e.g., "JD’s Confluence Space").
+#Subtitle: Smaller, lighter weight, directly beneath (e.g., "If I know it, its here").
+#Constraint: No "fluff" or extraneous marketing badges.
+#Technical Metadata:
+#Canvas: Horizontal panorama.
+#Background: Very light gradient (fading to white/transparent edges) to blend with Confluence's white background.
+#Current Hue: [Target: Light Blue-Green / Mint].
+#Current Status Tracking
+#Active Project: Breaking the Monolith.
+#Active Subtitle: Automating Startup.
+#Active Hue: Blue with initial 5% green shift.
